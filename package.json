@@ -1,0 +1,10 @@
+{
+  "name": "Demo3DCocos",
+  "uuid": "4eebe68b-485d-4edf-9d1d-f183ae5c1115",
+  "creator": {
+    "version": "3.7.3"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.1"
+  }
+}
