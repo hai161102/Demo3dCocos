@@ -1,8 +1,9 @@
-import { _decorator, Component, SkeletalAnimation } from 'cc';
+import { _decorator, Component, EventKeyboard, EventTouch, SkeletalAnimation } from 'cc';
+import { Base } from './Base';
 const { ccclass, property } = _decorator;
 
 @ccclass('BaseModel')
-export abstract class BaseModel extends Component {
+export abstract class BaseModel extends Base {
 
     protected animation : SkeletalAnimation;
 
@@ -24,6 +25,7 @@ export abstract class BaseModel extends Component {
     update(deltaTime: number) {
         
     }
+
 }
 
 
