@@ -5,6 +5,12 @@
     "version": "3.7.3"
   },
   "dependencies": {
-    "@types/websocket": "^1.0.5"
+    "@types/websocket": "^1.0.5",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/socket.io-client": "^3.0.0"
   }
 }

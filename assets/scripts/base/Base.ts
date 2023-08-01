@@ -1,5 +1,4 @@
 import { _decorator, Component, EventKeyboard, EventTouch, input, Input, Node } from 'cc';
-import { SocketUtils } from '../utils/SocketUtils';
 
 const { ccclass, property } = _decorator;
 
@@ -9,11 +8,6 @@ export abstract class Base extends Component {
 
 
     protected onLoad(): void {
-        SocketUtils.instance.socket.addEventListener('open', (e : Event) => {
-            console.log(e);
-        });
-
-        
 
         input.on(Input.EventType.KEY_DOWN, this.onKeyDown, this);
         input.on(Input.EventType.KEY_UP, this.onKeyUp, this);

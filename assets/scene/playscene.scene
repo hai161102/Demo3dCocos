@@ -227,9 +227,9 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -0.501,
-      "y": 30,
-      "z": 30
+      "x": 0,
+      "y": 16,
+      "z": 8
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -269,7 +269,7 @@
     "_fovAxis": 0,
     "_orthoHeight": 10,
     "_near": 1,
-    "_far": 1000,
+    "_far": 100,
     "_color": {
       "__type__": "cc.Color",
       "r": 0,
@@ -285,7 +285,7 @@
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 2
+      "height": 1
     },
     "_aperture": 19,
     "_shutter": 7,

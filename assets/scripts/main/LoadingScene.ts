@@ -2,6 +2,7 @@ import { _decorator, Component, director, EventKeyboard, EventTouch, Node } from
 import { BaseScene } from '../base/BaseScene';
 import { PlayScene } from './PlayScene';
 import { Base } from '../base/Base';
+import { SocketUtils } from '../utils/SocketUtils';
 const { ccclass, property } = _decorator;
 
 
@@ -12,7 +13,6 @@ export class LoadingScene extends BaseScene {
 
     protected onLoad(): void {
         super.onLoad()
-
         setTimeout(() => {
             director.loadScene(PlayScene.sceneName);
         }, 2000);

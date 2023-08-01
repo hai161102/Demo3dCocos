@@ -1,9 +1,10 @@
 import { _decorator, AnimationClip, EventKeyboard, EventTouch, Input, input, KeyCode, NodeSpace, v3, Vec3 } from 'cc';
 import { BaseModel } from '../base/BaseModel';
+import { Base } from '../base/Base';
 const { ccclass, property } = _decorator;
 
 @ccclass('Actor')
-export class Actor extends BaseModel {
+export class Actor extends BaseModel implements Base{
     
     
 
